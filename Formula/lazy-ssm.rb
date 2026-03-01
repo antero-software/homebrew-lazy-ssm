@@ -6,10 +6,10 @@ class LazySsm < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.3/lazy-ssm-darwin-arm64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "0ecec73a6b2195c48d9a9b5090245e34cd033e5d8e5df5ab893a6c1568e9be4a"
     else
       url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.3/lazy-ssm-darwin-amd64.tar.gz"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      sha256 "3b1045830c349b5c04e075587ac58a7be185da8c4aef7ed040209488de0a6ee9"
     end
   end
 
