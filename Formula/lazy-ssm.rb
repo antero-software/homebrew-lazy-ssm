@@ -1,4 +1,4 @@
-class LazySSM < Formula
+class LazySsm < Formula
   desc "On-demand AWS Systems Manager tunnels to servers/databases through EC2 instances"
   homepage "https://github.com/antero-software/lazy-ssm"
   version "v1.0.3"
