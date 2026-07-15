@@ -1,27 +1,27 @@
 class LazySsm < Formula
   desc "On-demand AWS Systems Manager tunnels to servers/databases through EC2 instances"
   homepage "https://github.com/antero-software/lazy-ssm"
-  version "v1.0.7"
+  version "v1.0.8"
 
   on_macos do
     on_arm do
-      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.7/lazy-ssm-darwin-arm64.tar.gz"
-      sha256 "b7a3e557b298d46de7f7372e74950ced3501fc32466f24f9b50408e4de5f0d98"
+      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.8/lazy-ssm-darwin-arm64.tar.gz"
+      sha256 "b1539c56bd09ef1b3c33cf4043a28405c4b84dfc74ffebfdf20fdccbf0d3be69"
     end
     on_intel do
-      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.7/lazy-ssm-darwin-amd64.tar.gz"
-      sha256 "7f7636ff1f792464c1317a402b040b8ff392bf1688f633cea60a2d948def0304"
+      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.8/lazy-ssm-darwin-amd64.tar.gz"
+      sha256 "8fe619b9362fd12a3d8ca5c05c65c94fab8cd772fdbe5eb75bfdb422700b9e5f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.7/lazy-ssm-linux-arm64.tar.gz"
-      sha256 "e0cb7e297afe1a56aa1aef3c35308d53628f410f696ed2182f77375e8d0027c6"
+      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.8/lazy-ssm-linux-arm64.tar.gz"
+      sha256 "af8d12245a0e2e76eb11155bfddcbdf2eb891f7be613d7e1adfe8fafc4d5f28b"
     end
     on_intel do
-      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.7/lazy-ssm-linux-amd64.tar.gz"
-      sha256 "1eca53addc3bf25cef230cf0153f20382bd1885da7d8cba0cc354a1e4f25755d"
+      url "https://github.com/antero-software/lazy-ssm/releases/download/v1.0.8/lazy-ssm-linux-amd64.tar.gz"
+      sha256 "dd8eba619abb13150c43ef2ae3dd9e211ab89df444f1d57fca290fb15accf13f"
     end
   end
 
